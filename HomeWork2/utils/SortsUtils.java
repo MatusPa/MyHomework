@@ -45,6 +45,23 @@ public class SortsUtils {
         return arr;
     }
 
+    public static int[] puzyrbSort2(int[] mas) {
+        int buf = 0;
+        for (int out = mas.length - 1; out >= 1; out--) {
+            for (int in = 0; in < out; in++) {
+                if (mas[in] > mas[in + 1]){
+                    buf = mas[in];
+                    mas[in] =mas[in +1];
+                    mas[in+1]= buf;
+
+                }
+
+            }
+        }
+        return mas;
+
+    }
+
 
 
 }

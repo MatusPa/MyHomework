@@ -14,6 +14,10 @@ public class HomeWork4_4 {
          System.out.println(Arrays.toString(SortsUtils.shakerSort(mas)));
         System.out.println("Пузырьком");
         System.out.println(Arrays.toString(SortsUtils.puzyrbSort(mas)));
+        System.out.println("Другой метод. Пузырьком:");
+        System.out.println(Arrays.toString(SortsUtils.puzyrbSort2(mas)));
+
+
 
     }
 }
