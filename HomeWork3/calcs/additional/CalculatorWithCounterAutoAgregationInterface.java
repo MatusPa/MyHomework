@@ -50,7 +50,7 @@ public class CalculatorWithCounterAutoAgregationInterface {
         count++;
         return n;
     }
-    long getCountOperation(){
+    public long getCountOperation(){
         return count;
     }
 

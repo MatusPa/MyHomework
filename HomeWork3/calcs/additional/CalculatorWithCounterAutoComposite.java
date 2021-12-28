@@ -57,7 +57,7 @@ public class CalculatorWithCounterAutoComposite {
         count++;
         return n;
     }
-    long getCountOperation(){
+    public long getCountOperation(){
         return count;
     }
 

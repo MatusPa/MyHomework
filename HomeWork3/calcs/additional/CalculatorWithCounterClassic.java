@@ -4,10 +4,10 @@ import HomeWork3.calcs.simple.CalculatorWithMathExtends;
 
 public class CalculatorWithCounterClassic extends CalculatorWithMathExtends {
     long count;
-    void incrementCountOperation(){
+    public void incrementCountOperation(){
         count++;
     }
-    long getCountOperation(){
+     public long getCountOperation(){
         return count;
     }
 

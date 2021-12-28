@@ -46,7 +46,7 @@ public class CalculatorWithCounterAutoSuper extends CalculatorWithMathExtends {
         count++;
         return super.root(num1);
     }
-    long getCountOperation(){
+    public long getCountOperation(){
         return count;
     }
 
